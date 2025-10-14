@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+.font-body {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-sans {
+  font-family: "Open Sans", sans-serif
+}
+
+.font-cursive {
+  font-family: "Dancing Script",cursive;
+}
