@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Nunito:wght@500;600;700&family=Dancing+Script&display=swap" rel="stylesheet">
 
 </head>
-<body class="bg-amber-50 ">
+<body class="bg-amber-50 " >
   <header class="fixed z-10 top-0 left-0 w-full">
   <nav class="bg-rose-50 shadow-md">
     <div class="max-w-6xl mx-auto px-4">
@@ -18,7 +18,7 @@
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-10 font-Sans">
-          <a href="#" class="text-gray-700 hover:text-rose-600 font-semibold">Home</a>
+          <a href="./index.html" class="text-gray-700 hover:text-rose-600 font-semibold">Home</a>
           <a href="#" class="text-gray-700 hover:text-rose-600 font-semibold">About</a>
           <a href="#" class="text-gray-700 hover:text-rose-600 font-semibold">Contact</a>
         </div>
@@ -44,7 +44,77 @@
     </div>
   </nav>
   </header>
- <!--<footer class="mt-30 bg-rose-200 p-4 " >
+  <main>
+         <section class="pt-32">
+            
+             <div class="container bg-amber-50 w-[350px] m-auto shadow-2xl rounded-lg pb-4 md:flex md:w-[1200px] md:gap-4 ">
+                <div class="bg-red-50 m-6  rounded-lg p-8 shadow-xl  md:w-[500px]">
+                    <h2 class="text-red-500 font-cursive text-lg font-semibold mb-6">Contact Information</h2>
+                    <p class="font-body text-base leading-7 mb-6 text-gray-500">Fill up the form and our Team will get back to you within 24 hours.</p>
+                    <div class="flex gap-3 items-center mb-4">
+                   <img src="img/phone-call.png" alt="phone-icon " class="w-5 h-5">
+                    <p class="text-red-800">+234 806 165 8913</p>
+                    </div>
+                    <div class="flex gap-3 items-center mb-4">
+                        <img src="img/email (1).png" alt="email-icon " class="w-5 h-5">
+                        <p class="text-red-800">covenantoniyinde@gmail.com</p>
+                    </div>
+                    <div class="flex gap-3 items-cente mb-4">
+                        <img src="img/ticket.png" alt="ticket-icon" class="w-5 h-5">
+                        <p class="text-red-800 pb-16">Open Support Ticket</p>
+                    </div>
+                </div>
+                <div class=" mt-8 mx-6 flex-2">
+                    <div class="md:flex md:items-center md:gap-6 mb-6">
+                        <div class="md:w-1/2 mb-6">
+                      <label for="first-name" class=" text-gray-500 font-bold ">First Name</label>
+                      <input type="text" id="first-name" name="name" placeholder="eg.Lucas" class="border-b border-red-500 w-full text-gray-500  focus:outline-none focus:ring-0 focus:border-red-800">
+                      </div>
+                      <div class="md:w-1/2 ">
+                         <label for="name" class=" text-gray-500 font-bold ">Last Name</label>
+                        <input type="text" id="first-name" name="name" placeholder="eg.Jones" class="border-b border-red-500 w-full text-gray-500 focus:outline-none focus:ring-0 focus:border-red-800" >
+                      </div>
+                    </div>
+                    <label for="email" class="block text-gray-500 font-bold mb-2">Email</label> 
+                    <input type="email" id="email" name="email" placeholder="eg.lucas@mail.com" class="border-b border-red-500 w-full text-gray-500 mb-8 focus:outline-none focus:ring-0 focus:border-red-800">
+                    <p class="text-lg">What are you interested on?</p>
+                    <div class="md:flex md:items-center ">
+                    <div class="flex gap-10 md:gap-4 md:mr-4 ">
+                    <div class="flex items-center gap-2">
+                    <input checked type="checkbox" id="design" name="design" value="design" class="w-5 h-5 appearance-none border-2 rounded-full border-gray-400  checked:bg-red-300  checked:border-red-100">
+                    <label for="design" class="text-lg">Design</label>
+                    </div>
+                    <div class="flex items-center gap-2">
+                    <input type="checkbox" id="development" name="development" value="development" class="w-5 h-5 appearance-none border-2 rounded-full border-gray-400  checked:bg-red-300  checked:border-red-100">
+                    <label for="development" class="text-lg">Development</label>
+                    </div>
+                    </div>
+                    <div class="flex gap-10 flex-wrap md:gap-4">
+                    <div class="flex items-center gap-2">
+                    <input type="checkbox" id="support" name="support" value="support" class="w-5 h-5 appearance-none border-2 rounded-full border-gray-400  checked:bg-red-300  checked:border-red-100">
+                    <label for="support" class="text-lg">Support</label>
+                    </div>
+                    <div class="flex items-center gap-2">
+                    <input type="checkbox" id="other" name="other" value="other" class="w-5 h-5 appearance-none border-2 rounded-full border-gray-400  checked:bg-red-300  checked:border-red-100">
+                    <label for="development" class="text-lg">Other</label>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="mt-6 ">
+                       <label for="message" class="block mb-4">Your Message</label>
+                        <textarea id="message" name="mesage" class="appearance-none border-b border-red-500 w-full text-gray-500 focus:outline-none focus:ring-0 focus:border-red-800 p-4 resize-none"></textarea>
+                    </div>
+                    <div class=" mt-4 ">
+                    <button type="button" class="bg-rose-50 border-red-500 rounded-md p-2 w-full text-red-500 font-bold font-cursive md:w-[200px]">SEND MESSAGE</button>
+                    </div>
+                </div>
+             </div>
+             
+        
+        </section>
+            
+  </main>
+ <footer class="mt-30 bg-rose-200 p-4 " >
        <p class="text-center font-cursive text-red-500 text-lg font-bold">covenantoniyinde@gmail.com</p>
        <div class="flex flex-col md:flex-row gap-2 md:gap-10 items-center justify-center">
          <div class="flex gap-2 items-center">
@@ -79,7 +149,7 @@
        </div>
        <div class="border-t-2 border-t-rose-100 text-center my-2">  <p class="text-sm font-cursive font-bold text-gray-600">&copy; 2025 Oniyinde Covenant. All rights reserved.</p></div>
       
-  </footer>-->
+  </footer>
 
 
   <script src="./index.js">
